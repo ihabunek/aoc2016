@@ -17,10 +17,7 @@
       (partition 3 triangles))))
 
 (defn is-valid-triangle [sides]
-  (let [sides (sort sides)
-        a (first sides)
-        b (second sides)
-        c (last sides)]
+  (let [[a b c] (sort sides)]
     (> (+ a b) c)))
 
 (defn main []
