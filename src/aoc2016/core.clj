@@ -6,7 +6,7 @@
             [aoc2016.day04 :as d4]
             [aoc2016.day05 :as d5]
             [aoc2016.day05b :as d5b]
-            [clojure.pprint :refer [pprint]]))
+            [aoc2016.day06 :as d6]))
 
 (defn -main []
-  (d5b/main))
+  (d6/main))
