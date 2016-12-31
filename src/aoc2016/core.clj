@@ -10,7 +10,8 @@
             [aoc2016.day07 :as d7]
             [aoc2016.day08 :as d8]
             [aoc2016.day09 :as d9]
+            [aoc2016.day10 :as d10]
 ))
 
 (defn -main []
-  (d9/main))
+  (d10/main))
